@@ -31,6 +31,7 @@
   <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
   <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
   <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+  <script async custom-element="amp-recaptcha-input" src="https://cdn.ampproject.org/v0/amp-recaptcha-input-0.1.js"></script>
   <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
   
   
@@ -225,7 +226,7 @@
                 <div class="card-wrapper">
                     
                     <div class="card-img">
-                        <amp-img src="assets/images/character-package-2000x1334.jpg" layout="responsive" width="1107.9460269865067" class="mobirise-loader" height="739" alt="Character Package Concept">
+                        <amp-img src="assets/images/character-package-2000x1334.jpg" layout="responsive" width="1107.9925037481257" class="mobirise-loader" height="739.031" alt="Character Package Concept">
                             <div placeholder="" class="placeholder">
                                 <div class="mobirise-spinner">
                                     <em></em>
@@ -275,7 +276,7 @@
                 <div class="card-wrapper">
                     <div class="card">
                         <div class="img">
-                            <amp-img src="assets/images/negative-494x371.png" layout="responsive" width="347.5309973045822" height="261" alt="Character" class="mobirise-loader">
+                            <amp-img src="assets/images/negative-494x371.png" layout="responsive" width="347.9890458221024" height="261.344" alt="Character" class="mobirise-loader">
                                 <div placeholder="" class="placeholder">
                                 <div class="mobirise-spinner">
                                     <em></em>
@@ -302,7 +303,7 @@
                 <div class="card-wrapper">
                     <div class="card">
                         <div class="img">
-                            <amp-img src="assets/images/easy-access-494x371.jpg" layout="responsive" width="347.5309973045822" height="261" alt="Easy Access" class="mobirise-loader">
+                            <amp-img src="assets/images/easy-access-494x371.jpg" layout="responsive" width="347.9890458221024" height="261.344" alt="Easy Access" class="mobirise-loader">
                                 <div placeholder="" class="placeholder">
                                 <div class="mobirise-spinner">
                                     <em></em>
@@ -329,7 +330,7 @@
                 <div class="card-wrapper">
                     <div class="card">
                         <div class="img">
-                            <amp-img src="assets/images/hightech-494x371.jpg" layout="responsive" width="347.5309973045822" height="261" alt="High Tech" class="mobirise-loader">
+                            <amp-img src="assets/images/hightech-494x371.jpg" layout="responsive" width="347.9890458221024" height="261.344" alt="High Tech" class="mobirise-loader">
                                 <div placeholder="" class="placeholder">
                                 <div class="mobirise-spinner">
                                     <em></em>
@@ -444,7 +445,7 @@
                 <div class="card-wrapper mbr-py-2">
                     <div class="card">
                         <div class="img">
-                            <amp-img src="assets/images/black-tapware-free-standing-bath-frameless-sliding-shower-nz6bn9yfeigj0p7behojl6nn96bw3jniykka87duls-170x120.jpg" layout="responsive" width="783.4166666666667" height="553" alt="img" class="mobirise-loader">
+                            <amp-img src="assets/images/black-tapware-free-standing-bath-frameless-sliding-shower-nz6bn9yfeigj0p7behojl6nn96bw3jniykka87duls-170x120.jpg" layout="responsive" width="791.0907500000001" height="558.417" alt="img" class="mobirise-loader">
                                 <div placeholder="" class="placeholder">
                                 <div class="mobirise-spinner">
                                     <em></em>
@@ -468,7 +469,7 @@
                 <div class="card-wrapper mbr-py-2">
                     <div class="card">
                         <div class="img">
-                            <amp-img src="assets/images/parnell-finished-bathroom-09-nzkcfkohmcyql2xcy2ep9yvm4jdxo7ezr3eu714y7k-1-170x120.jpg" layout="responsive" width="783.4166666666667" height="553" alt="img" class="mobirise-loader">
+                            <amp-img src="assets/images/parnell-finished-bathroom-09-nzkcfkohmcyql2xcy2ep9yvm4jdxo7ezr3eu714y7k-1-170x120.jpg" layout="responsive" width="791.0907500000001" height="558.417" alt="img" class="mobirise-loader">
                                 <div placeholder="" class="placeholder">
                                 <div class="mobirise-spinner">
                                     <em></em>
@@ -492,7 +493,7 @@
                 <div class="card-wrapper mbr-py-2">
                     <div class="card">
                         <div class="img">
-                            <amp-img src="assets/images/144-campbell-main-bath-finished-1-nz6bn9yfeigj0p7behojl6nn96bw3jniykka87duls-170x120.jpg" layout="responsive" width="783.4166666666667" height="553" alt="img" class="mobirise-loader">
+                            <amp-img src="assets/images/144-campbell-main-bath-finished-1-nz6bn9yfeigj0p7behojl6nn96bw3jniykka87duls-170x120.jpg" layout="responsive" width="791.0907500000001" height="558.417" alt="img" class="mobirise-loader">
                                 <div placeholder="" class="placeholder">
                                 <div class="mobirise-spinner">
                                     <em></em>
@@ -622,37 +623,39 @@
         <!-- Content -->
         <div class="mbr-row mbr-jc-c">
             <div class="mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-6" data-form-type="formoid">
-                <!---Formbuilder Form--->
-                <form action-xhr="https://formoid.net/api/amp-form/push" method="POST" class="mbr-form" data-form-title="Mobirise Form" id="myFormcontacts21a" on="submit:myFormcontacts21a.clear;submit-success:AMP.setState({myStatecontacts21a:{formdata01contacts21a:{stateformdata01contacts21a: '', valueformdata01contacts21a: ''}, formdata11contacts21a:{stateformdata11contacts21a: '', valueformdata11contacts21a: ''}, formdata21contacts21a:{stateformdata21contacts21a: '', valueformdata21contacts21a: ''}, formdata31contacts21a:{stateformdata31contacts21a: '', valueformdata31contacts21a: ''}}});submit-error:AMP.setState({myStatecontacts21a:{formdata01contacts21a:{stateformdata01contacts21a: myStatecontacts21a.formdata01contacts21a.valueformdata01contacts21a}, formdata11contacts21a:{stateformdata11contacts21a: myStatecontacts21a.formdata11contacts21a.valueformdata11contacts21a}, formdata21contacts21a:{stateformdata21contacts21a: myStatecontacts21a.formdata21contacts21a.valueformdata21contacts21a}, formdata31contacts21a:{stateformdata31contacts21a: myStatecontacts21a.formdata31contacts21a.valueformdata31contacts21a}}})"><amp-state id="myStatecontacts21a"><script type="application/json"> {"formdata01contacts21a":{ "stateformdata01contacts21a": "", "valueformdata01contacts21a": ""},"formdata11contacts21a":{ "stateformdata11contacts21a": "", "valueformdata11contacts21a": ""},"formdata21contacts21a":{ "stateformdata21contacts21a": "", "valueformdata21contacts21a": ""},"formdata31contacts21a":{ "stateformdata31contacts21a": "", "valueformdata31contacts21a": ""}}</script></amp-state><input type="hidden" name="email" data-form-email="true" value="n46AU9smHdmB9VNk7offrsy+FJriKX6mJop4O0ZwpD5YK0vdBsIWysi2CjAobAFewmAfYwculvdFDU2R8jxfhgnmB/5FtT/6aBEboIix8vnssekjtpu7rrjreB1xyjCt">
-                    <div class="mbr-row">
-                        <div submit-success="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
-                            <template data-form-alert="" type="amp-mustache">Subscription successful!</template>
-                        </div>
-                        <div submit-error="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
-                            <template data-form-alert="" type="amp-mustache">Failed! {{error}}</template>
-                        </div>
-                    </div>
-                    <div class="dragArea mbr-row">
-                        <div data-for="form[data][0][1]" class="mbr-col-md-12 field mbr-col-sm-12">
-                            <input type="hidden" name="form[data][0][0]" value="Name" id="form[data][0][0]-contacts2-1a" data-form-field="">
-                            <input [value]="myStatecontacts21a.formdata01contacts21a.stateformdata01contacts21a" on="change:AMP.setState({myStatecontacts21a:{formdata01contacts21a:{valueformdata01contacts21a: event.value}}})" type="text" name="form[data][0][1]" placeholder="Name" data-form-field="Name" required="required" class="field-input display-4" id="form[data][0][1]-contacts2-1a">
-                        </div>
-                        <div data-for="form[data][1][1]" class="mbr-col-md-12 field mbr-col-sm-12">
-                            <input type="hidden" name="form[data][1][0]" value="Phone" id="form[data][1][0]-contacts2-1a" data-form-field="">
-                            <input [value]="myStatecontacts21a.formdata11contacts21a.stateformdata11contacts21a" on="change:AMP.setState({myStatecontacts21a:{formdata11contacts21a:{valueformdata11contacts21a: event.value}}})" type="tel" name="form[data][1][1]" placeholder="Phone" data-form-field="Phone" class="field-input display-4" id="form[data][1][1]-contacts2-1a">
-                        </div>
-                        <div data-for="form[data][2][1]" class="mbr-col-md-12 field mbr-col-sm-12">
-                            <input type="hidden" name="form[data][2][0]" value="Email" id="form[data][2][0]-contacts2-1a" data-form-field="">
-                            <input [value]="myStatecontacts21a.formdata21contacts21a.stateformdata21contacts21a" on="change:AMP.setState({myStatecontacts21a:{formdata21contacts21a:{valueformdata21contacts21a: event.value}}})" type="email" name="form[data][2][1]" placeholder="Email" data-form-field="Email" required="required" class="field-input display-4" id="form[data][2][1]-contacts2-1a">
-                        </div>
-                        <div data-for="form[data][3][1]" class="mbr-col-md-12 mbr-col-sm-12 field">
-                            <input type="hidden" name="form[data][3][0]" value="Message" id="form[data][3][0]-contacts2-1a" data-form-field="">
-                            <textarea on="change:AMP.setState({myStatecontacts21a:{formdata31contacts21a:{valueformdata31contacts21a: event.value}}})" [defaulttext]="myStatecontacts21a.formdata31contacts21a.stateformdata31contacts21a" name="form[data][3][1]" placeholder="Message" data-form-field="Message" class="field-input display-4" id="form[data][3][1]-contacts2-1a"></textarea>
-                        </div>
-                        <div data-for="" class="mbr-col-sm-12 mbr-col-md-12 mbr-section-btn mbr-pt-5 align-center"><button type="submit" class="btn btn-info display-4">Submit</button></div>
-                    </div>
-                </form><!---Formbuilder Form--->
-            </div>
+<!--Formbuilder Form-->
+<form method="POST" class="mbr-form" action-xhr="https://formoid.net/api/amp-form/push" data-form-title="Mobirise Form" id="myFormcontacts21a" on="submit:myFormcontacts21a.clear;submit-success:AMP.setState({myStatecontacts21a:{formdata01contacts21a:{stateformdata01contacts21a: '', valueformdata01contacts21a: ''}, formdata11contacts21a:{stateformdata11contacts21a: '', valueformdata11contacts21a: ''}, formdata21contacts21a:{stateformdata21contacts21a: '', valueformdata21contacts21a: ''}, formdata31contacts21a:{stateformdata31contacts21a: '', valueformdata31contacts21a: ''}}});submit-error:AMP.setState({myStatecontacts21a:{formdata01contacts21a:{stateformdata01contacts21a: myStatecontacts21a.formdata01contacts21a.valueformdata01contacts21a}, formdata11contacts21a:{stateformdata11contacts21a: myStatecontacts21a.formdata11contacts21a.valueformdata11contacts21a}, formdata21contacts21a:{stateformdata21contacts21a: myStatecontacts21a.formdata21contacts21a.valueformdata21contacts21a}, formdata31contacts21a:{stateformdata31contacts21a: myStatecontacts21a.formdata31contacts21a.valueformdata31contacts21a}}})"><amp-state id="myStatecontacts21a"><script type="application/json"> {"formdata01contacts21a":{ "stateformdata01contacts21a": "", "valueformdata01contacts21a": ""},"formdata11contacts21a":{ "stateformdata11contacts21a": "", "valueformdata11contacts21a": ""},"formdata21contacts21a":{ "stateformdata21contacts21a": "", "valueformdata21contacts21a": ""},"formdata31contacts21a":{ "stateformdata31contacts21a": "", "valueformdata31contacts21a": ""}}</script></amp-state><amp-recaptcha-input layout="nodisplay" name="recaptcha_token" data-sitekey="6Lc8WCYaAAAAAB6v6QQrIhh0aZYpM51dVGvCGYCN" data-action="recaptcha_example"></amp-recaptcha-input><input type="hidden" name="email" data-form-email="true" value="gBr76DMsxNPIrXY9xOFUxSftd71exm+1m5my/2wzL19C/A4RYNA/FCggoauudENWpkqb0ZvSqFqZTtkGh9y30ziIvGi8nYWijksKOKkBb3DdRDgZ2Ev77i5cNAhcWDJC.B4cD9DS57rUBrPZKdKEDyye/Lx7JL66PbjpK1zYFjOwx5MJ++E5hPCCEJM/WAi++jLPBVIWBryCRfyrk4XIcd8s66l1AzDg2Dj9OPd+SyV4/TYlsHkSpFPCByfm69KJc.zz05ImL1yXK4kwkQKxP0YGdS11zAn/tMl01uPfDibAYsNva/JsZcBa5kRGnc9CKjKO6gnaehAhla1GHQsdUvHkvZbBJilv4SqpapZg9LcO8qDqxvO2CI2zMvE2ktyAQ=">
+<div class="mbr-row">
+<div submit-success="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
+<template data-form-alert="" type="amp-mustache">Subscription successful!</template>
+</div>
+<div submit-error="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
+<template data-form-alert="" type="amp-mustache">Failed! {{error}}</template>
+</div>
+</div>
+<div class="dragArea mbr-row">
+<div data-for="form[data][0][1]" class="mbr-col-md-12 mbr-col-sm-12 field ">
+<input type="hidden" name="form[data][0][0]" value="Name" id="form[data][0][0]-contacts2-1a" data-form-field="">
+<input [value]="myStatecontacts21a.formdata01contacts21a.stateformdata01contacts21a" on="change:AMP.setState({myStatecontacts21a:{formdata01contacts21a:{valueformdata01contacts21a: event.value}}})" type="text" name="form[data][0][1]" placeholder="Name" data-form-field="Name" required="required" class="field-input display-4" value="" id="form[data][0][1]-contacts2-1a">
+</div>
+<div data-for="form[data][1][1]" class="mbr-col-md-12 mbr-col-sm-12 field ">
+<input type="hidden" name="form[data][1][0]" value="Phone" id="form[data][1][0]-contacts2-1a" data-form-field="">
+<input [value]="myStatecontacts21a.formdata11contacts21a.stateformdata11contacts21a" on="change:AMP.setState({myStatecontacts21a:{formdata11contacts21a:{valueformdata11contacts21a: event.value}}})" type="tel" name="form[data][1][1]" placeholder="Phone" data-form-field="Phone" class="field-input display-4" value="" id="form[data][1][1]-contacts2-1a">
+</div>
+<div data-for="form[data][2][1]" class="mbr-col-md-12 mbr-col-sm-12 field ">
+<input type="hidden" name="form[data][2][0]" value="Email" id="form[data][2][0]-contacts2-1a" data-form-field="">
+<input [value]="myStatecontacts21a.formdata21contacts21a.stateformdata21contacts21a" on="change:AMP.setState({myStatecontacts21a:{formdata21contacts21a:{valueformdata21contacts21a: event.value}}})" type="email" name="form[data][2][1]" placeholder="Email" data-form-field="Email" required="required" class="field-input display-4" value="" id="form[data][2][1]-contacts2-1a">
+</div>
+<div data-for="form[data][3][1]" class="mbr-col-md-12 mbr-col-sm-12 field">
+<input type="hidden" name="form[data][3][0]" value="Message" id="form[data][3][0]-contacts2-1a" data-form-field="">
+<textarea on="change:AMP.setState({myStatecontacts21a:{formdata31contacts21a:{valueformdata31contacts21a: event.value}}})" [defaulttext]="myStatecontacts21a.formdata31contacts21a.stateformdata31contacts21a" name="form[data][3][1]" placeholder="Message" data-form-field="Message" class="field-input display-4" id="form[data][3][1]-contacts2-1a"></textarea>
+</div>
+<div class="mbr-col-sm-12 mbr-col-md-12 mbr-section-btn mbr-pt-5 align-center">
+<button type="submit" class="btn btn-info display-4">Submit</button>
+</div>
+</div>
+</form><!--Formbuilder Form-->
+</div>
         </div>
     </div>
 </section>
